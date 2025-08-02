@@ -51,6 +51,8 @@ public class HelloWorldModel {
 
     private String message;
 
+    private String text;
+
     @PostConstruct
     protected void init() {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
@@ -66,6 +68,10 @@ public class HelloWorldModel {
 
     public String getMessage() {
         return message;
+    }
+
+    public String getText(){
+        return text;
     }
 
 }
