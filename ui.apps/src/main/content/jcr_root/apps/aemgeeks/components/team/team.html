@@ -1,0 +1,6 @@
+<h1>Team</h1>
+<sly data-sly-use.team="com.aem.geeks.core.models.Team"></sly>
+<div data-sly-list.item="${team.teamMember}">
+    <p>Team Member Name : ${item.membername}</p>
+    <p>Team Designation : ${item.memberdesignation}</p>
+</div>
