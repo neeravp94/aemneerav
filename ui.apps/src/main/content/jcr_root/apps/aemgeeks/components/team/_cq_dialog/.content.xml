@@ -43,7 +43,8 @@
                         <granite:data
                             jcr:primaryType="nt:unstructured"
                             max-items="{Long}4"
-                            min-items="{Long}2"/>
+                            min-items="{Long}2"
+                            regex="^[A-Z]+$"/>
                     </teammember>
                 </items>
             </column>
